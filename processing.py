@@ -3,14 +3,17 @@ from gensim.models import Word2Vec
 import numpy as np
 import nltk
 import itertools
-from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize, word_tokenize
 import scipy
 from scipy import spatial
 from nltk.tokenize.toktok import ToktokTokenizer
 import re
+nltk.download('stopwords')
+nltk.download('stopwords')
+
 tokenizer = ToktokTokenizer()
 stopword_list = nltk.corpus.stopwords.words('english') 
+
 
 
 
